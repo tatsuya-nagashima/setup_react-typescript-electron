@@ -1,0 +1,35 @@
+{
+  "name": "setup_react-typescript-electron",
+  "version": "1.0.0",
+  "description": "Setup, React + Typescript + Electron",
+  "main": "main.js",
+  "author": "Tatsuya Nagashima",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "electron ./",
+    "debug": "electron ./ --debug"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.45",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/redux": "^3.6.0",
+    "css-loader": "^4.2.1",
+    "electron": "^9.2.0",
+    "prettier": "^2.0.5",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.2",
+    "tslint": "^6.1.3",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
